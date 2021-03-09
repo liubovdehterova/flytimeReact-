@@ -1,0 +1,353 @@
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.eot"), url("../fonts/Roboto-Medium.woff2"), url("../fonts/Roboto-Medium.woff"), url("../fonts/Roboto-Medium.ttf"), url("../fonts/Roboto-Medium.svg");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.eot"), url("../fonts/Roboto-Regular.woff2"), url("../fonts/Roboto-Regular.woff"), url("../fonts/Roboto-Regular.ttf"), url("../fonts/Roboto-Regular.svg");
+}
+
+/* line 19, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.conteiner {
+  max-width: 1085px;
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 25, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv {
+  font-family: "Roboto-Medium";
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 29, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  padding: 0;
+}
+
+/* line 35, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv__list__inner {
+  list-style: none;
+  padding: 0 50px 0 0;
+  cursor: pointer;
+}
+
+/* line 38, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv__list__inner:last-child {
+  padding: 0;
+}
+
+/* line 41, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv__list__inner__link {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+}
+
+/* line 44, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv__list__inner__link:hover {
+  color: #30d630;
+}
+
+/* line 50, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.nuv::before {
+  content: '';
+  background: url("../image/FlyTime.svg") no-repeat;
+  width: 10%;
+  height: 65px;
+}
+
+/* line 57, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.contact__us {
+  font-family: "Roboto-Medium";
+  color: white;
+  font-size: 20px;
+  border: none;
+  background-color: #30d630;
+  padding: 0 5%;
+}
+
+/* line 65, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.header {
+  cursor: default;
+  background: url("../image/fonImg.jpg") no-repeat;
+  background-size: cover;
+  font-family: "Roboto-Regular";
+  color: white;
+  padding: 5% 0 10% 0;
+  text-align: center;
+  position: relative;
+  margin-top: 1%;
+}
+
+/* line 75, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.header::before {
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 86, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.header__name {
+  font-size: 45px;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 90, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.header__name__sub {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 97, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option {
+  font-family: "Roboto-Regular";
+  cursor: default;
+  margin-top: 5rem;
+}
+
+/* line 101, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__titel {
+  font-family: "Roboto-Medium";
+  font-size: 25px;
+}
+
+/* line 105, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 109, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information {
+  width: 23%;
+  padding: 0 10% 0 0;
+  margin-bottom: 5%;
+}
+
+/* line 113, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information:last-child {
+  padding: 0;
+}
+
+/* line 116, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information:nth-child(3) {
+  padding: 0;
+}
+
+/* line 119, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information__titel {
+  font-family: "Roboto-Medium";
+  font-size: 45px;
+  margin: 0;
+}
+
+/* line 124, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information__discription {
+  font-size: 18px;
+  color: dimgray;
+}
+
+/* line 128, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information__link {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 133, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information:hover .option__inner__information__link {
+  color: red;
+}
+
+/* line 136, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.option__inner__information:hover .option__inner__information__discription {
+  color: black;
+}
+
+/* line 143, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__call {
+  font-family: "Roboto-Regular";
+  cursor: default;
+  margin-top: 5rem;
+}
+
+/* line 147, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__call__titel {
+  font-family: "Roboto-Medium";
+  font-size: 25px;
+}
+
+/* line 151, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__call__information {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 154, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__call__information__inner {
+  width: 50%;
+}
+
+/* line 156, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__call__information__inner__titel {
+  font-family: "Roboto-Medium";
+  font-size: 45px;
+  margin: 3% 0;
+}
+
+/* line 162, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__call__information__link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background: #30d630;
+  padding: 0.8rem 1rem;
+}
+
+/* line 171, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.footer {
+  margin-top: 5rem;
+  font-size: 12px;
+  font-family: "Roboto-Regular";
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=index.css.map */
+
+
+
+/* __________________________________________________________ */
+.conteiner-item {
+  width: 100vw;
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 0 0 2rem 0;
+  height: 100vh;
+  background: rgba(51, 51, 51, 0.8);
+  z-index: 2;
+}
+.ask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 36, C:/Users/Liubov/Desktop/FlyTimeOne/callUs/scss/index.scss */
+.ask__titel {
+  margin-bottom: 3rem;
+}
+
+/* line 39, C:/Users/Liubov/Desktop/FlyTimeOne/callUs/scss/index.scss */
+.ask__inner {
+  background: white;
+  width: 25%;
+  padding: 1rem 2rem;
+  margin: 3rem 0;
+  position: absolute;
+  left: 36%;
+}
+
+/* line 46, C:/Users/Liubov/Desktop/FlyTimeOne/callUs/scss/index.scss */
+.ask__form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto-Medium";
+}
+
+/* line 52, C:/Users/Liubov/Desktop/FlyTimeOne/callUs/scss/index.scss */
+.ask__user__info {
+  margin: 2% 0 10% 0;
+  padding: 10px;
+  border: 1px solid #bbbbbb;
+  border-radius: 0.3rem;
+}
+
+/* line 60, C:/Users/Liubov/Desktop/FlyTimeOne/callUs/scss/index.scss */
+.sumbit {
+  padding: 10px;
+  border-radius: 0.3rem;
+  margin-top: 10%;
+  border: 1px solid #bbbbbb;
+  background: #30d630;
+  color: white;
+  font-size: 20px;
+}
+
+
+/* ____________________________________________________________________________________ */
+
+.submenu {
+  width: 150px;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 3rem;
+  background: #30d630;
+  padding: 0;
+  z-index: 2;
+}
+.submenu-item {
+  display: block;
+}
+
+.submenu-link {
+  padding: 5px;
+  display: block;
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.submenu-link:hover {
+  text-decoration: underline;
+}
+
+.nuv__list>.nuv__list__inner:hover>.submenu {
+  display: block;
+  visibility: visible;
+}
+.nuv__list__inner:last-child:hover>.submenu {
+  display: none;
+}
+.nuv__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nuv__list__inner {
+  display: inline-block;
+  position: relative;
+}
+
+.ask__inner-item {
+  display: flex;
+  justify-content: space-between;
+}
+.button__esc {
+  height: 100%;
+  border: none;
+  position: relative;
+  left: 20px;
+}
