@@ -5,10 +5,10 @@ class Buner extends Component {
         return (
             <div className="header">
                 <h1 className="header__name">
-                    Создание сайтов
+                    Диджитализируем Бизнес
                 </h1>
                 <h2 className="header__name__sub">
-                    Для бизнеса и корпораций
+                    Разрабатываем. Интегрируем. Сопровождаем
                 </h2>
             </div>       
         );

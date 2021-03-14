@@ -8,16 +8,14 @@ class Main extends Component {
     render() {
         return (
             <div className="option">
-                <h3 className="option__titel">Titel</h3>
+                <h3 className="option__titel">КОМПЛЕКСНЫЕ РЕШЕНИЯ.</h3>
                 <div className="option__inner">
                     <div className="option__inner__information">
                         <Title 
                             title="Интернет Магазин"
                         />
                         <Info 
-                              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Aperiam recusandae, ipsam odio ut veniam non magnam placeat. 
-                                    Sint quas velit, culpa quo, doloribus ipsum dolore iure accusantium modi voluptates vel?"
+                              text="Делаем работу интернет-магазина простой и быстрой благодаря специальным инструментам."
                         />
                         <Button 
                             button="Подробнее"
@@ -25,12 +23,10 @@ class Main extends Component {
                     </div>
                     <div className="option__inner__information">
                         <Title 
-                            title="Web Решения"
+                            title="Корпоративные сайты"
                         />
                         <Info 
-                            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                  Aperiam recusandae, ipsam odio ut veniam non magnam placeat. 
-                                  Sint quas velit, culpa quo, doloribus ipsum dolore iure accusantium modi voluptates vel?"
+                            text="Разрабатываем корпоративные проекты различной сложности и масштаба."
                         />
                         <Button 
                             button="Подробнее"
@@ -38,12 +34,32 @@ class Main extends Component {
                     </div>
                     <div className="option__inner__information">
                         <Title 
-                            title="Mobile"
+                            title="Доработка сайта"
                         />
                         <Info 
-                            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                  Aperiam recusandae, ipsam odio ut veniam non magnam placeat. 
-                                  Sint quas velit, culpa quo, doloribus ipsum dolore iure accusantium modi voluptates vel?"
+                            text="Внедряем новые 'хотелки', развиваем функционал, оптимизируем работу модулей и плагинов. "
+                        />
+                        <Button 
+                            button="Подробнее"
+                        />
+                    </div>
+                    <div className="option__inner__information">
+                        <Title 
+                            title="Бизнес сайт"
+                        />
+                        <Info 
+                            text="Помогаем создать правильное позиционирование для расширения партнерской и клиентской сети."
+                        />
+                        <Button 
+                            button="Подробнее"
+                        />
+                    </div>
+                    <div className="option__inner__information">
+                        <Title 
+                            title="Сайт визитка"
+                        />
+                        <Info 
+                            text="Уделяем особое внимание созданию эмоции и яркому впечатлению о вашем бренде.?"
                         />
                         <Button 
                             button="Подробнее"
@@ -54,35 +70,7 @@ class Main extends Component {
                             title="SEO"
                         />
                         <Info 
-                            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                  Aperiam recusandae, ipsam odio ut veniam non magnam placeat. 
-                                  Sint quas velit, culpa quo, doloribus ipsum dolore iure accusantium modi voluptates vel?"
-                        />
-                        <Button 
-                            button="Подробнее"
-                        />
-                    </div>
-                    <div className="option__inner__information">
-                        <Title 
-                            title="SMM"
-                        />
-                        <Info 
-                            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                  Aperiam recusandae, ipsam odio ut veniam non magnam placeat. 
-                                  Sint quas velit, culpa quo, doloribus ipsum dolore iure accusantium modi voluptates vel?"
-                        />
-                        <Button 
-                            button="Подробнее"
-                        />
-                    </div>
-                    <div className="option__inner__information">
-                        <Title 
-                            title="PPC"
-                        />
-                        <Info 
-                            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                  Aperiam recusandae, ipsam odio ut veniam non magnam placeat. 
-                                  Sint quas velit, culpa quo, doloribus ipsum dolore iure accusantium modi voluptates vel?"
+                            text="Оптимизируем сайт под требования поисковых систем и увеличиваем объемы бесплатного органического трафика.?"
                         />
                         <Button
                             button="Подробнее"

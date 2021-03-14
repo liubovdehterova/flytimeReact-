@@ -2,26 +2,14 @@ import React, { Component } from 'react';
 
 
 import List from './List';
-import CallUs from '../CallUs';
+import CallUs from './CallUs';
+
 
 
 
 class Nuv extends Component {
-	constructor() {
-		super();
-		this.state = {
-			isShow: false,
-		};
-		this.toggleShow = this.toggleShow.bind(this);
-	}
-	toggleShow() {
-		const { isShow } = this.state;
-		this.setState({
-			isShow: !isShow,
-		});
-	}
 	render() {
-		const { isShow } = this.state;
+		const { clearFromProps, propsState } = this.props;
 		return (			
 			<div className="menu">
 				<div className="nuv">
@@ -34,14 +22,15 @@ class Nuv extends Component {
 					
 					<button 
 						className="contact__us"
-						onClick={this.toggleShow}
+						onClick={clearFromProps}
 					>
 						Связаться с нами
 					</button>
 					{
-						isShow ? (
-							<CallUs />
-						) : null
+						propsState ? <CallUs 
+										propsDeleteFunction={ clearFromProps }
+										propsDeleteState={ propsState }
+									/> : null
 					}
 				</div>
 			</div>			

@@ -10,7 +10,8 @@ class List extends Component {
                 <p className="nuv__list__inner__link">
                     {item}
                 </p>
-                <Item />
+                <Item propsItem={item}/>
+
             </li>	
 		);
 	}

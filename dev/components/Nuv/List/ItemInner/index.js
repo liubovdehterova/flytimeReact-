@@ -1,17 +1,26 @@
 import React, { Component } from 'react';
+import {Link, NavLink} from "react-router-dom";
 
 class ItemInner extends Component {
     render() {
-        const { submenuLink } = this.props;
+        const { submenuLinkBlog, submenuLink, propsItemInner, submenuOur} = this.props;
+        let className='submenu-item';
+        if(propsItemInner == 'Блог' && submenuLinkBlog == undefined || propsItemInner == 'О нас' && submenuOur == undefined) {
+            className += ' not-blog'
+        }
         return (
-            <li className="submenu-item">
-                <a 
-                    href="#" 
+            <li className={className}>
+                <a
+                    href="#"
                     className="submenu-link"
                 >
                     {
-                        submenuLink
+                        propsItemInner == 'Услуги' ? submenuLink
+                            : propsItemInner == 'Блог' ? submenuLinkBlog
+                            : propsItemInner == 'О нас' ? submenuOur
+                            : null
                     }
+
                 </a>
             </li>
         );

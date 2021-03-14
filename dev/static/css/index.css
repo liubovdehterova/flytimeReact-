@@ -60,8 +60,8 @@
 .nuv::before {
   content: '';
   background: url("../image/FlyTime.svg") no-repeat;
-  width: 10%;
-  height: 65px;
+  width: 8%;
+  height: 80px;
 }
 
 /* line 57, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
@@ -123,7 +123,8 @@
 /* line 101, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
 .option__titel {
   font-family: "Roboto-Medium";
-  font-size: 25px;
+  font-size: 14px;
+  width: 20%;
 }
 
 /* line 105, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
@@ -131,14 +132,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 /* line 109, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
 .option__inner__information {
-  width: 23%;
-  padding: 0 10% 0 0;
+  width: 28%;
+  padding: 0 8% 0 0;
   margin-bottom: 5%;
+  cursor: pointer;
 }
 
 /* line 113, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
@@ -154,10 +156,10 @@
 /* line 119, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
 .option__inner__information__titel {
   font-family: "Roboto-Medium";
-  font-size: 45px;
+  font-size: 40px;
   margin: 0;
+  cursor: pointer;
 }
-
 /* line 124, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
 .option__inner__information__discription {
   font-size: 18px;
@@ -214,7 +216,7 @@
 /* line 162, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
 .block__call__information__link {
   display: block;
-  text-decoration: none;
+  border: none;
   color: white;
   background: #30d630;
   padding: 0.8rem 1rem;
@@ -260,7 +262,7 @@
 /* line 39, C:/Users/Liubov/Desktop/FlyTimeOne/callUs/scss/index.scss */
 .ask__inner {
   background: white;
-  width: 25%;
+  width: 20%;
   padding: 1rem 2rem;
   margin: 3rem 0;
   position: absolute;
@@ -297,13 +299,13 @@
 /* ____________________________________________________________________________________ */
 
 .submenu {
-  width: 150px;
+  width: 181px;
   display: none;
   position: absolute;
-  left: 0;
+  left: -20px;
   top: 3rem;
-  background: #30d630;
-  padding: 0;
+  background: #ffffff;
+  padding: 10px;
   z-index: 2;
 }
 .submenu-item {
@@ -315,12 +317,12 @@
   display: block;
   font-family: "Roboto-Regular";
   font-size: 16px;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
 .submenu-link:hover {
-  text-decoration: underline;
+  color: #30d630;
 }
 
 .nuv__list>.nuv__list__inner:hover>.submenu {
@@ -350,4 +352,228 @@
   border: none;
   position: relative;
   left: 20px;
+}
+
+
+/*_______________________________________________________*/
+.conteiner-other {
+  width: 100vw;
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 0 0 2rem 0;
+  height: 100vh;
+  background: rgba(51, 51, 51, 0.8);
+  z-index: 2;
+}
+/* line 40, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__inner__item {
+  background: white;
+  padding: 2rem;
+  margin: 5rem 0;
+  position: absolute;
+  width: 60%;
+}
+
+/* line 46, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__form__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Roboto-Medium";
+}
+
+/* line 51, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__form__block {
+  width: 45%;
+}
+
+/* line 56, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__user__info__item {
+  margin: 2% 0 10% 0;
+  padding: 10px;
+  border: 1px solid #bbbbbb;
+  border-radius: 0.3rem;
+  display: block;
+  width: 100%;
+}
+
+/* line 63, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__user__info:first-child {
+  margin-top: 0;
+}
+
+/* line 66, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__user__info__select {
+  flex-basis: 100%;
+  margin: 0 0 5% 0;
+}
+
+/* line 70, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__user__info__file {
+  visibility: hidden;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+}
+
+/* line 78, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__user__info__result {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #818181;
+  margin: 0;
+}
+
+/* line 87, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__user__info__text {
+  width: 45%;
+  border: 1px solid #bbbbbb;
+  padding: 15px;
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+}
+
+/* line 97, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.ask__form__button {
+  flex-basis: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 103, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
+.sumbit {
+  padding: 0.5rem 4rem;
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+  border: 1px solid #bbbbbb;
+  background: #30d630;
+  color: white;
+  font-size: 20px;
+}
+
+.ask__inner__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.not-blog {
+  display: none;
+}
+/*_________________________________________________________________________*/
+.header__site {
+  background: url("../image/create-site.jpg") no-repeat;
+  background-size: cover;
+}
+.block__main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.block__main__inner {
+  font-family: "Roboto-Regular";
+  width: 55%;
+}
+.block__main__inner__title {
+  font-family: "Roboto-Medium";
+  margin: 0;
+}
+.block__main__inner__info {
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: rgba(0, 0, 0, .7);
+}
+.block__main__button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #676767;
+  cursor: pointer;
+}
+.block__main__button:hover {
+  color: black;
+}
+.ask__inner__site {
+  width: 25%;
+  margin: 0;
+  height: 100vh;
+}
+/*______________________________________________________________________________*/
+.block__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 3rem;
+  font-family: "Roboto-Regular";
+}
+.block__info__inner {
+  width: 28%;
+  padding: 0 8% 0 0;
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+.block__info__inner:last-child {
+  padding: 0;
+}
+.block__info__inner:nth-child(3) {
+  padding: 0;
+}
+.block__info__inner__title {
+  font-family: "Roboto-Medium";
+  font-size: 1.25rem;
+  margin: 0;
+  cursor: pointer;
+}
+/* line 124, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__info__inner__descrition {
+  font-size: 1rem;
+  color: #676767;
+}
+
+/* line 128, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__info__inner__button {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 133, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__info__inner:hover .block__info__inner__button {
+  color: red;
+}
+
+/* line 136, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
+.block__info__inner:hover .block__info__inner__descrition {
+  color: black;
+}
+.block__info__inner-other:hover .block__info__inner__descrition {
+  color: #676767;
+  cursor: auto;
+}
+.text__messeng {
+  margin-bottom: 3rem;
+}
+.block__call__link__inner {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.subtitle {
+  font-family: "Roboto-Regular";
+  text-transform: uppercase;
+}
+.block__main__other {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+.block__info__inner__title-other {
+  cursor: auto;
 }
