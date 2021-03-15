@@ -5,6 +5,7 @@ import Nuv from '../Nuv';
 // import MainComponent from '../MainComponent';
 import Footer from '../Footer';
 import CreateSite from '../../CreateSite';
+import SeoPage from "../../SeoPage";
 
 
 
@@ -33,8 +34,9 @@ class App extends Component {
                     propsState={this.state.isShowNew}
                 />
                 <div>
-                    {/*< MainComponent  />*/}
-                    <CreateSite />
+                    {/*< MainComponent  /> /!*Главная страница*!/*/}
+                    {/*<CreateSite /> Страница разрабртка сайтов*/}
+                    <SeoPage />
                 </div>
                 <Footer />
             </BrowserRouter>

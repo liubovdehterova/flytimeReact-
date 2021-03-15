@@ -8,48 +8,46 @@ class Item extends Component {
         const { propsItem } = this.props;
         return (
             <ul className="submenu">
-                <ItemInner submenuLink="Интернет магазин"
-                           submenuLinkBlog="Дизайн"
-                           submenuOur="Вакансии"
-                           propsItemInner={propsItem}
+                <ItemInner
+                    submenuLink="Разработка сайтов"
+                    submenuLinkBlog="Дизайн"
+                    submenuOur="Вакансии"
+                    propsItemInner={propsItem}
 
                 />
-                <ItemInner submenuLink="Корпоративные сайты"
-                           submenuLinkBlog="WEB"
-                           submenuOur="Отзывы"
-                           propsItemInner={propsItem}
+                <ItemInner
+                    submenuLink="SEO-продвижение сайта"
+                    submenuLinkBlog="WEB"
+                    submenuOur="Отзывы"
+                    propsItemInner={propsItem}
                 />
-                <ItemInner submenuLink="Landing page"
-                           submenuLinkBlog="SEO"
-                           submenuOur="Офис"
-                           propsItemInner={propsItem}
+                <ItemInner
+                    submenuLink="Веб дизайн"
+                    submenuLinkBlog="SEO"
+                    submenuOur="Офис"
+                    propsItemInner={propsItem}
                 />
-                <ItemInner submenuLink="Бизнес сайт"
-                           submenuLinkBlog="Интернет-маркетинг"
-                           propsItemInner={propsItem}
+                <ItemInner
+                    submenuLink="Техническая поддержка"
+                    submenuLinkBlog="Интернет-маркетинг"
+                    propsItemInner={propsItem}
                 />
-                <ItemInner submenuLink="Дизайн сайта"
-                           submenuLinkBlog="Стартапы и бизнес"
-                           propsItemInner={propsItem}
+                <ItemInner
+                    submenuLink="Доработка сайта"
+                    submenuLinkBlog="Стартапы и бизнес"
+                    propsItemInner={propsItem}
                 />
-                <ItemInner submenuLink="Сайт визитка"
-                           propsItemInner={propsItem}
+                <ItemInner
+                    submenuLink="Редизайн сайта"
+                    propsItemInner={propsItem}
                 />
-                <ItemInner submenuLink="Доработка сайта"
-                           propsItemInner={propsItem}
+                <ItemInner
+                    submenuLink="Контекстная реклама"
+                    propsItemInner={propsItem}
                 />
-                <ItemInner submenuLink="Редизайн сайта"
-                           propsItemInner={propsItem}
-                />
-                <ItemInner submenuLink="SEO-продвижение сайта"
-                           propsItemInner={propsItem}
-                />
-                <ItemInner submenuLink="Контекстная реклама"
-                           propsItemInner={propsItem}
-                />
-                <ItemInner submenuLink="Настройка аналитики"
-                           propsItemInner={propsItem}
-
+                <ItemInner
+                    submenuLink="Настройка аналитики"
+                    propsItemInner={propsItem}
                 />
             </ul>
 
