@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
-import Buner from '../Buner';
-import Main from '../Main';
-import Communication from '../Communication';
+import Buner from './Buner';
+import Main from './Main';
+import Communication from './Communication';
+import {BrowserRouter} from "react-router-dom";
 
 class MainComponent extends Component {
     constructor() {
@@ -20,14 +21,14 @@ class MainComponent extends Component {
     }
     render() {
         return (
-            <>
+            <div id="start__page">
                 <Buner />
                 <Main />
                 <Communication
                     addPropsForm={this.clearUseInteresting }
                     addPropsState={this.state.isShow}
                 />
-            </>
+            </div>
         );
     }
 }
