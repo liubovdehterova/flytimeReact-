@@ -71,14 +71,6 @@ body {
   color: #30d630;
 }
 
-/* line 50, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
-/*.nuv::before {*/
-/*  content: '';*/
-/*  background: url("../image/FlyTime.png") no-repeat;*/
-/*  background-size: contain;*/
-/*  width: 10%;*/
-/*  height: 80px;*/
-/*}*/
 
 /* line 57, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
 .contact__us {
@@ -101,6 +93,10 @@ body {
   text-align: center;
   position: relative;
   margin-top: 1%;
+}
+.header__advertising {
+  background: url("../image/Advertising.jpg") no-repeat;
+  background-size: 100%;
 }
 
 /* line 75, C:/Users/Liubov/Desktop/FlyTimeOne/scss/index.scss */
@@ -973,8 +969,194 @@ body {
   font-size: 18px;
   padding: 10px 35px;
 }
+/*_____________________________________________________________*/
+.context__call {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto-Regular";
+  margin-top: 3rem;
+}
+.context__call__inner {
+  width: 55%;
+}
+.context__call__inner__title {
+  margin: 0;
+  font-family: "Roboto-Medium";
+  font-size: 42px;
+}
+.context__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Roboto-Regular";
+  background: rgba(48, 214, 48, 0.2);
+  padding: 0 2rem 2rem 2rem;
+}
+.context__list__inner {
+  list-style: none;
+  width: 20%;
+  margin-right: 5%;
+  margin-top: 3rem;
+}
+.context__list__inner:nth-child(4) {
+  margin-right: 0;
+}
+.context__list__inner:last-child {
+  margin-right: 0;
+}
+.context__list__inner__title {
+  font-family: "Roboto-Medium";
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 1rem;
+}
 
 
+.context__list__inner-traffic:before{
+  content: '';
+  display: block;
+  background: url("../image/web-traffic.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 30%;
+}
+.context__list__inner-speed:before{
+  content: '';
+  display: block;
+  background: url("../image/speed.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+.context__list__inner-call:before{
+  content: '';
+  display: block;
+  background: url("../image/customer-service.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 30%;
+}
+.context__list__inner-return:before{
+  content: '';
+  display: block;
+  background: url("../image/return.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+
+.context__list__inner-economic:before{
+  content: '';
+  display: block;
+  background: url("../image/economic.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+.context__list__inner-pie-chart:before{
+  content: '';
+  display: block;
+  background: url("../image/pie-chart.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+.context__list__inner-meeting:before{
+  content: '';
+  display: block;
+  background: url("../image/meeting.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+.context__list__inner-testing:before{
+  content: '';
+  display: block;
+  background: url("../image/testing.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+}
+.stage {
+  font-family: "Roboto-Regular";
+  margin-top: 3rem;
+  padding: 0.5rem 1rem;
+}
+.stage__info__title {
+  font-family: "Roboto-Bold";
+  font-weight: bold;
+  font-size: 52px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.stage__info__subtitle {
+  margin-bottom: 0;
+}
+.stage__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.stage__info {
+  width: 45%;
+}
+.stage__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-left: 5%;
+}
+.stage__list__inner {
+  width: 40%;
+  margin-right: 10%;
+  margin-top: 5%;
+  color: rgba(0, 0, 0, 0.6);
+}
+.stage__info__text {
+  color: rgba(0, 0, 0, 0.6);
+  width: 90%;
+}
+.stage__list__inner:before {
+  content: '';
+  display: block;
+  background: #000000;
+  background-size: contain;
+  width: 60px;
+  height: 3px;
+  position: relative;
+  left: 0;
+  margin-bottom: 2rem;
+}
+.stage__list__inner:nth-child(2){
+  margin-right: 0;
+}
+.stage__list__inner:last-child{
+  margin-right: 0;
+}
+.bg {
+  background: rgba(48, 214, 48, 0.2);
+}
+/*_______________________________________________________________*/
+.header__support {
+  background: url("../image/support.jpg") no-repeat;
+  background-size: 100%;
+}
 
 
 

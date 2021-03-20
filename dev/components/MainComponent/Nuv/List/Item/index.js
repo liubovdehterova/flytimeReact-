@@ -34,6 +34,7 @@ class Item extends Component {
                     submenuLink="Техническая поддержка"
                     submenuLinkBlog="Интернет-маркетинг"
                     propsItemInner={propsItem}
+                    hrefSupport = '/TechnicalSupport'
                 />
                 <ItemInner
                     submenuLink="Доработка сайта"
@@ -47,6 +48,7 @@ class Item extends Component {
                 <ItemInner
                     submenuLink="Контекстная реклама"
                     propsItemInner={propsItem}
+                    hrefContext='/ContextualAdvertising'
                 />
                 <ItemInner
                     submenuLink="Настройка аналитики"

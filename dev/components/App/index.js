@@ -7,7 +7,8 @@ import Footer from '../MainComponent/Footer';
 import CreateSite from '../CreateSite';
 import SeoPage from "../SeoPage";
 import WebDesine from "../WebDesine";
-
+import ContextualAdvertising from '../ContextualAdvertising'
+import TechnicalSupport from '../TechnicalSupport'
 
 class App extends Component {
     constructor() {
@@ -32,13 +33,12 @@ class App extends Component {
                     propsState={this.state.isShowNew}
                 />
 
-                    < Route path="/main" component={ MainComponent} /> {/*Главная страница*/}
-
-                    <Route path="/DevelopSite" component={ CreateSite } /> {/*Разработка сайта*/}
-                    <Route path="/SeoPage" component={ SeoPage } /> {/*SEO-продвижение*/}
-                    <Route path="/WebDesign" component={ WebDesine } /> {/*WebDesign*/}
-
-                    {/*<WebDesine />*/}
+                <Route path="/main" component={ MainComponent} /> {/*Главная страница*/}
+                <Route path="/DevelopSite" component={ CreateSite } /> {/*Разработка сайта*/}
+                <Route path="/SeoPage" component={ SeoPage } /> {/*SEO-продвижение*/}
+                <Route path="/WebDesign" component={ WebDesine } /> {/*WebDesign*/}
+                <Route path="/ContextualAdvertising" component={ ContextualAdvertising } /> {/*ContextualAdvertising*/}
+                <Route path="/TechnicalSupport" component={ TechnicalSupport } />
 
                 <Footer />
             </BrowserRouter>
