@@ -55,6 +55,7 @@ class Item extends Component {
                 <ItemInner
                     submenuLink="Настройка аналитики"
                     propsItemInner={propsItem}
+                    hrefAnalytics="/AnalyticsSetup"
                 />
             </ul>
 

@@ -10,7 +10,7 @@ class CallUs extends Component {
                 <div className="ask">
                     <div className="ask__inner ask__inner__site">
                         <div className="ask__inner-item">
-                            <h1 className="ask__titel">
+                            <h1 className="ask__titel ask__titel-other">
                                 Интернет магазин
                             </h1>
                             <button 

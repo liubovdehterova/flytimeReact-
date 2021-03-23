@@ -2,25 +2,26 @@ import React, {Component } from 'react';
 
 import Form from './Form';
 
-class CallUsForm extends Component {
+class CallUs extends Component {
+    
     render() {
-        const { propsOpenFormFunctionBusiness, stateOpenFormFunctionBusiness } = this.props;
+        const { propsDeleteRedesign, propsDeleteStateRedesign } = this.props;
         return (
             <div className="conteiner-item">
                 <div className="ask">
-                    <div className="ask__inner ask__inner__site ask__inner-other">
+                    <div className="ask__inner">
                         <div className="ask__inner-item">
                             <h1 className="ask__titel">
-                                Интернет магазин с множеством категорий и услуг
+                                Обсудить проект
                             </h1>
-                            <button 
+                            <button
                                 className="button__esc"
-                                onClick={ propsOpenFormFunctionBusiness }
+                                onClick={ propsDeleteRedesign }
                             >
                                 X
                             </button>
                             {
-                                !stateOpenFormFunctionBusiness ? document.querySelectorAll('.conteiner-item').remove() : null
+                                !propsDeleteStateRedesign ? document.querySelectorAll('.conteiner-item').remove() : null
                             }
                         </div>
                         <Form />
@@ -31,4 +32,4 @@ class CallUsForm extends Component {
     }
 }
 
-export default CallUsForm;
+export default CallUs;

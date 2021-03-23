@@ -101,7 +101,7 @@ class FooterLink extends Component {
                                     </a>
                                 </li>
                                 <li className="footer__link__inner__list">
-                                    <a href="#" className="footer__link__inner__list-item">
+                                    <a href="/AnalyticsSetup" className="footer__link__inner__list-item">
                                         Настройка аналитики
                                     </a>
                                 </li>

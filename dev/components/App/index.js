@@ -11,6 +11,7 @@ import ContextualAdvertising from '../ContextualAdvertising';
 import TechnicalSupport from '../TechnicalSupport';
 import WebsiteImprovement from '../WebsiteImprovement';
 import WebsiteRedesign from '../WebsiteRedesign'
+import AnalyticsSetup from '../AnalyticsSetup'
 
 class App extends Component {
     constructor() {
@@ -43,6 +44,7 @@ class App extends Component {
                 <Route path="/TechnicalSupport" component={ TechnicalSupport } /> {/*TechnicalSupport*/}
                 <Route path="/WebsiteImprovement" component={ WebsiteImprovement } /> {/*WebsiteImprovement*/}
                 <Route path="/WebsiteRedesign" component={ WebsiteRedesign } /> {/*WebsiteRedesign*/}
+                <Route path="/AnalyticsSetup" component={ AnalyticsSetup } /> {/*AnalyticsSetup*/}
 
                 <Footer />
             </BrowserRouter>
