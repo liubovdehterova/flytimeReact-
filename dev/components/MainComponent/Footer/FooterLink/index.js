@@ -40,13 +40,8 @@ class FooterLink extends Component {
                         <div className="list">
                             <ul className="footer__link__inner">
                                 <li className="footer__link__inner__list">
-                                    <a href="#"  className="footer__link__inner__list-item">
+                                    <a href="/DevelopSite"  className="footer__link__inner__list-item">
                                         Разработка сайтов
-                                    </a>
-                                </li>
-                                <li className="footer__link__inner__list">
-                                    <a href="#"  className="footer__link__inner__list-item">
-                                        Разработка интернет-магазинов
                                     </a>
                                 </li>
                                 <li className="footer__link__inner__list">
@@ -60,8 +55,8 @@ class FooterLink extends Component {
                                     </a>
                                 </li>
                                 <li className="footer__link__inner__list">
-                                    <a href="#"  className="footer__link__inner__list-item">
-                                        Продвижение сайтов
+                                    <a href="/WebsiteImprovement"  className="footer__link__inner__list-item">
+                                        Доработка сайта
                                     </a>
                                 </li>
                             </ul>
@@ -73,12 +68,12 @@ class FooterLink extends Component {
                                     </a>
                                 </li>
                                 <li className="footer__link__inner__list">
-                                    <a href="#" className="footer__link__inner__list-item">
+                                    <a href="/ContextualAdvertising" className="footer__link__inner__list-item">
                                         Контекстная реклама
                                     </a>
                                 </li>
                                 <li className="footer__link__inner__list">
-                                    <a href="#" className="footer__link__inner__list-item">
+                                    <a href="/SeoPage" className="footer__link__inner__list-item">
                                         SEO-продвижение
                                     </a>
                                 </li>
@@ -91,7 +86,7 @@ class FooterLink extends Component {
 
                             <ul className="footer__link__inner">
                                 <li className="footer__link__inner__list">
-                                    <a href="#" className="footer__link__inner__list-item">
+                                    <a href="/WebDesign" className="footer__link__inner__list-item">
                                         Веб Дизайн
                                     </a>
                                 </li>
@@ -101,7 +96,7 @@ class FooterLink extends Component {
                                     </a>
                                 </li>
                                 <li className="footer__link__inner__list">
-                                    <a href="#" className="footer__link__inner__list-item">
+                                    <a href="/TechnicalSupport" className="footer__link__inner__list-item">
                                         Техническая поддержка
                                     </a>
                                 </li>
@@ -111,7 +106,7 @@ class FooterLink extends Component {
                                     </a>
                                 </li>
                                 <li className="footer__link__inner__list">
-                                    <a href="#" className="footer__link__inner__list-item">
+                                    <a href="/WebsiteRedesign" className="footer__link__inner__list-item">
                                         Редизайн сайта
                                     </a>
                                 </li>

@@ -33,7 +33,7 @@ class StartPageWeb extends Component {
                       className='block__call__information__link block__call__link__inner'
                       onClick={ propsFunction }
                   >
-                      Узнать стоимость
+                      Обсудить проект
                   </button>
                   {
                       stateState ? <CallUs

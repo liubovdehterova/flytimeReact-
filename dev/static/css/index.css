@@ -467,14 +467,16 @@ body {
 }
 
 /* line 103, C:/Users/Liubov/Desktop/FlyTimeOne/UsInteresting/scss/index.scss */
-.sumbit {
+.sumbit,
+.submit {
   padding: 0.5rem 4rem;
   border-radius: 0.3rem;
-  margin-top: 25px;
+  margin-top: 0;
   border: 1px solid #bbbbbb;
   background: #30d630;
   color: white;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .ask__inner__flex {
@@ -923,6 +925,11 @@ body {
   justify-content: center;
   margin-top: 2rem;
 }
+.header__design {
+  background-image: url("../image/webDesign.jpg");
+  background-size: 100%;
+  background-position: center;
+}
 .fromDesign__inner {
   width: 65%;
 }
@@ -1157,9 +1164,191 @@ body {
   background: url("../image/support.jpg") no-repeat;
   background-size: 100%;
 }
+.work {
+  margin-top: 4rem;
+  background: rgba(48, 214, 48, 0.2);
+  padding: 1rem;
+}
+.work__title {
+  font-family: "Roboto-Medium";
+  margin-bottom: 4rem;
+  margin-top: 0;
+}
+.work__list {
+  font-family: "Roboto-Regular";
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.work__list__inner {
+  width: 15%;
+  position: relative;
+}
+.work__list__inner__cons:before {
+  content: '';
+  display: block;
+  background: url("../image/counseling.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+  margin-bottom: 1rem;
+}
+.work__list__inner__tech:before {
+  content: '';
+  display: block;
+  background: url("../image/tech.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+  margin-bottom: 1rem;
+}
+.work__list__inner__enter:before {
+  content: '';
+  display: block;
+  background: url("../image/enter.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+  margin-bottom: 1rem;
+}
+.work__list__inner__advertising:before {
+  content: '';
+  display: block;
+  background: url("../image/advertising.png") no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 20%;
+  margin-bottom: 1rem;
+}
 
 
-
+.work__list__inner-bg:after {
+  content: '';
+  display: block;
+  background: url("../image/right-arrow.png") no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 200px;
+}
+.advantage__container {
+  margin-top: 3rem;
+  font-family: "Roboto-Regular";
+}
+.advantage__container__title {
+  font-size: 38px;
+  margin-bottom: 3rem;
+  font-family: "Roboto-Medium";
+  width: 45%;
+}
+.advantage__container__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.advantage__container__list__inner {
+  width: 45%;
+  margin-bottom: 3rem;
+}
+.advantage__container__list__inner__description {
+  color: rgba(0, 0, 0, 0.6);
+}
+/*__________________________________________________*/
+.header__improvement {
+  background-image: url("../image/Improvement.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.ask__improvement {
+  font-family: "Roboto-Regular";
+  background: rgba(48, 214, 48, 0.2);
+  padding: 2rem;
+  margin-top: 3rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.ask__improvement__title {
+  font-family: "Roboto-Medium";
+  margin: 0;
+  color: rgba(0, 0, 0, 1);
+}
+.ask__improvement-other {
+  background: none;
+}
+.ask__improvement__title-other {
+  width: 45%;
+}
+.ask__improvement__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto-Regular";
+}
+.ask__improvement__list__inner {
+  width: 25%;
+  margin-top: 3rem;
+  display: flex;
+  margin-right: 6rem;
+}
+.ask__improvement__list__inner:nth-child(3) {
+  margin-right: 0;
+}
+.ask__improvement__list__inner:nth-child(6) {
+  margin-right: 0;
+}
+.context__call__other {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.ask__improvement__list__inner-item__title {
+  margin: 0;
+}
+.ask__improvement__list__inner-item__title {
+  color: #000000;
+}
+.work__information {
+  font-family: "Roboto-Regular";
+  margin-top: 4rem;
+  background: rgba(48, 214, 48, 0.2);
+  padding: 2rem;
+}
+.work__information__title {
+  font-family: "Roboto-Medium";
+}
+.work__information__subtitle {
+  color: rgba(0, 0, 0, 0.6);
+}
+/*_________________________________________________________________*/
+.header__redesign {
+  background-image: url("../image/design.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.ask__improvement-other {
+  background: none;
+}
+.ask__improvement__list__inner-item__text-other {
+  margin-top: 0;
+}
 
 
 
@@ -1175,6 +1364,12 @@ body {
     margin-bottom: 1.5rem;
   }
   .sumbit {
+    margin-top: 0;
+  }
+  .ask__form__button {
+    margin-top: 2%;
+  }
+  .submit__form {
     margin-top: 0;
   }
 }

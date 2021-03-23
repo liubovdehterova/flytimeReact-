@@ -40,10 +40,12 @@ class Item extends Component {
                     submenuLink="Доработка сайта"
                     submenuLinkBlog="Стартапы и бизнес"
                     propsItemInner={propsItem}
+                    hrefImprovement = '/WebsiteImprovement'
                 />
                 <ItemInner
                     submenuLink="Редизайн сайта"
                     propsItemInner={propsItem}
+                    hrefRedesign="/WebsiteRedesign"
                 />
                 <ItemInner
                     submenuLink="Контекстная реклама"

@@ -11,7 +11,9 @@ class ItemInner extends Component {
             hrefSEO,
             hrefDesign,
             hrefContext,
-            hrefSupport
+            hrefSupport,
+            hrefImprovement,
+            hrefRedesign,
         } = this.props;
         let className='submenu-item';
         if(propsItemInner === 'Блог' && submenuLinkBlog === undefined || propsItemInner === 'О нас' && submenuOur === undefined) {
@@ -32,6 +34,10 @@ class ItemInner extends Component {
                              hrefContext
                         : submenuLink === "Техническая поддержка" ?
                              hrefSupport
+                        : submenuLink === "Доработка сайта" ?
+                             hrefImprovement
+                        : submenuLink === "Редизайн сайта" ?
+                             hrefRedesign
                         : null
                     }
                     className="submenu-link"

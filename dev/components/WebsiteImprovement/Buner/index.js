@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-class Bunner extends Component {
+class Buner extends Component {
     render() {
         return (
-            <div className="header header__seo">
+            <div className="header header__improvement">
                 <h1 className="header__name">
-                    Web-дизайн
+                    Доработка сайта
                 </h1>
                 <div className='subheader__block'>
                     <h2 className="header__name__sub header__name__sub-other">
-                        Не просто картинка, а удобный и понятный интерфейс с уникальным и оригинальным внешним видом
+                        Наша  IT-компания Fly Time готова помочь реализовать любые задумки.
                     </h2>
                 </div>
                 <div className='button'>
@@ -19,4 +19,4 @@ class Bunner extends Component {
     }
 }
 
-export default Bunner;
+export default Buner;

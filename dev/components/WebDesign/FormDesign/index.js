@@ -44,7 +44,7 @@ class FormDesign extends Component {
                             rows="5"
                             placeholder="Ваше сообщение"
                         />
-                        <input type="submit" className="sumbit" />
+                        <input type="submit" className="sumbit submit__form" />
                     </form>
                 </div>
             </div>
