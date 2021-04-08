@@ -1,33 +1,34 @@
 import React, { Component } from 'react';
 import CallUs from "./CallUs";
 
-class LendingDesignCall extends Component {
+class IndividualDesignCall extends Component {
     render() {
-        const { propsLendingDesignCall, stateLendingDesignCall } = this.props;
+        const { propsIndividualDesignCall, stateIndividualDesignCall } = this.props;
         return (
             <div className='description'>
                 <div className='description__info'>
                     <h1 className='description__info__title'>
-                        Что такое дизайн Landing page?
+                        Уникальный дизайн сайта - элемент имиджа компании
                     </h1>
                     <p className='description__info__text'>
-                        Это одностраничный сайт, который идеально подходит,
-                        чтобы донести четко обозначенную мысль до аудитории.
-                        В отличие от полноценного сайта, где много других разделов (о компании, продуктовые страницы, контакты, корзина и т. д.),
-                        лендинг удерживает внимание посетителей строго на одном сообщении и должен вызывать желание выполнить определенное целевое действие.
+                        Если вам нужен ресурс,
+                        который будет привлекать новых клиентов,
+                        поддерживать интерес завоёванной целевой аудитории,
+                        повышать имидж компании в глазах покупателей,
+                        закажите индивидуальный дизайн сайта.
                     </p>
                 </div>
                 <div className='description__buttons'>
                     <button
                         className='block__call__information__link block__call__link__inner'
-                        onClick={ propsLendingDesignCall }
+                        onClick={ propsIndividualDesignCall }
                     >
-                        Узнать стоимость
+                        Обсудить проект
                     </button>
                     {
-                        stateLendingDesignCall ? <CallUs
-                            propsLendingCall={ propsLendingDesignCall }
-                            stateLendingCall={ stateLendingDesignCall }
+                        stateIndividualDesignCall ? <CallUs
+                            propsIndividualCall={ propsIndividualDesignCall }
+                            stateIndividualCall={ stateIndividualDesignCall }
                         /> : null
                     }
                 </div>
@@ -35,4 +36,4 @@ class LendingDesignCall extends Component {
         );
     }
 }
-export default LendingDesignCall;
+export default IndividualDesignCall;

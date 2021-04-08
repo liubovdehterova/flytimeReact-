@@ -5,7 +5,7 @@ import Form from './Form';
 class CallUs extends Component {
     
     render() {
-        const { propsBusinessSitedCall, stateBusinessSiteCall } = this.props;
+        const { propsAdepCall, stateAdepCall } = this.props;
         return (
             <div className="conteiner-item">
                 <div className="ask">
@@ -16,12 +16,12 @@ class CallUs extends Component {
                             </h1>
                             <button
                                 className="button__esc"
-                                onClick={propsBusinessSitedCall}
+                                onClick={propsAdepCall}
                             >
                                 X
                             </button>
                             {
-                                !stateBusinessSiteCall ? document.querySelectorAll('.conteiner-item').remove() : null
+                                !stateAdepCall ? document.querySelectorAll('.conteiner-item').remove() : null
                             }
                         </div>
                         <Form />

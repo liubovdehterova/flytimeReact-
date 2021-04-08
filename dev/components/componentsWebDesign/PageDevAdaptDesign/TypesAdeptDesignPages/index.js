@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 
-import TypesLendingPagesList from './TypesLendingPagesList'
+import TypesAdeptDesignPagesList from './TypesAdeptDesignPagesList'
 
-class TypesLendingPages extends Component {
+class TypesAdeptDesignPages extends Component {
     render() {
         return(
             <div className="ask__improvement">
                 <h1 className="ask__improvement__title">
-                    Какие задачи решает Landing page?
+                    Этапы разработки web-дизайна
                 </h1>
-                <TypesLendingPagesList />
+                <p className="ask__improvement__title__submenu">
+                    Создание дизайна интернет-сайтов требует тщательной проработки каждой детали. Работа предусматривает:
+                </p>
+                <TypesAdeptDesignPagesList />
             </div>
         )
     }
 }
-export default TypesLendingPages;
+export default TypesAdeptDesignPages;

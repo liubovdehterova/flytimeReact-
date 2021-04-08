@@ -10,7 +10,7 @@ class DevelopmentStagers extends Component {
                 <div className="block__info">
                     <div className="block__info__inner block__info__inner-other">
                         <h6 className="block__info__inner__title block__info__inner__title-other">
-                            Иследование и разработка стратегии
+                            Исследование и разработка стратегии
                         </h6>
                         <p className="block__info__inner__descrition">
                             Создание сайта для бизнеса начинается м изучения особенностей товаров и услуг.

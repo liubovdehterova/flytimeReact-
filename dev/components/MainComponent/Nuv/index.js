@@ -13,7 +13,7 @@ class Nuv extends Component {
 			<div className="menu">
 				<div className="nuv">
 					<div className="logo">
-						<a href="/main" className="logo__link"></a>
+						<a href="/" className="logo__link"></a>
 					</div>
 					<ul className="nuv__list">
 						<List item="Услуги"/>

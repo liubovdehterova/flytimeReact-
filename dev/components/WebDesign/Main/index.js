@@ -11,7 +11,7 @@ class Main extends Component {
                 <h3 className="option__titel">Для нас дизайн - это все</h3>
                 <div className="option__inner">
                     <div className="option__inner__information">
-                        <a href="#" className="option__inner__information__item">
+                        <a href="/WebsiteRedesign" className="option__inner__information__item">
                             <Title
                                 title="Редизайн сайта"
                             />
@@ -24,7 +24,7 @@ class Main extends Component {
                         </a>
                     </div>
                     <div className="option__inner__information">
-                        <a href="#" className="option__inner__information__item">
+                        <a href="/PageDevAdaptDesign" className="option__inner__information__item">
                             <Title
                                 title="Адаптивный дизайн"
                             />
@@ -37,7 +37,7 @@ class Main extends Component {
                         </a>
                     </div>
                     <div className="option__inner__information">
-                        <a href="#" className="option__inner__information__item">
+                        <a href="/PageLendingDesign" className="option__inner__information__item">
                             <Title
                                 title="Дизайн лендингов"
                             />
@@ -50,7 +50,7 @@ class Main extends Component {
                         </a>
                     </div>
                     <div className="option__inner__information">
-                        <a href="#" className="option__inner__information__item">
+                        <a href="/PageCorporationWebSite" className="option__inner__information__item">
                             <Title
                                 title="Дизайн корпоротивного сайта"
                             />
@@ -63,25 +63,12 @@ class Main extends Component {
                         </a>
                     </div>
                     <div className="option__inner__information">
-                        <a href="#" className="option__inner__information__item">
+                        <a href="/IndividualDesign" className="option__inner__information__item">
                             <Title
                                 title="Индивидуальный дизайн сайта"
                             />
                             <Info
                                 text="Оригинальное, стильное, уникальное решение для любого бизнеса."
-                            />
-                            <Button
-                                button="Подробнее"
-                            />
-                        </a>
-                    </div>
-                    <div className="option__inner__information">
-                        <a href="#" className="option__inner__information__item">
-                            <Title
-                                title="Индивидуальный проект"
-                            />
-                            <Info
-                                text="Реализация любых нестандартных веб-решений в области дизайна и функционала ресурса."
                             />
                             <Button
                                 button="Подробнее"

@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 class Buner extends Component {
     render() {
         return (
-            <div className="header header__landing">
+            <div className="header header__individual">
                 <h1 className="header__name">
-                    Landing page
+                    Индивидуальный дизайн сайта
                 </h1>
                 <h2 className="header__name__sub">
-                    Нужен быстрый старт? Заказать лендинг - лучшее решение
+                    Оригинальное, стильное, уникальное решение для любого бизнеса.
                 </h2>
             </div>       
         );

@@ -4,7 +4,7 @@ class MainStepsList extends Component {
     render() {
         return(
             <ul className="ask__improvement__list ask__improvement__list-other">
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         1.
                     </div>
@@ -15,7 +15,7 @@ class MainStepsList extends Component {
                         </p>
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         2.
                     </div>
@@ -25,7 +25,7 @@ class MainStepsList extends Component {
                         </p>
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         3.
                     </div>
@@ -35,7 +35,7 @@ class MainStepsList extends Component {
                         </p>
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         4.
                     </div>
@@ -45,7 +45,7 @@ class MainStepsList extends Component {
                         </p>
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         5.
                     </div>
@@ -55,7 +55,7 @@ class MainStepsList extends Component {
                         </p>
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         6.
                     </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class TypesLendingDesignPagesList extends Component {
+class TypesIndividualDesignPagesList extends Component {
     render() {
         return(
             <ul className="ask__improvement__list ask__improvement__list-other">
@@ -62,4 +62,4 @@ class TypesLendingDesignPagesList extends Component {
         )
     }
 }
-export default TypesLendingDesignPagesList;
+export default TypesIndividualDesignPagesList;

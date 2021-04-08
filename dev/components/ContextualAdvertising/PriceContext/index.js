@@ -35,7 +35,7 @@ class PriceCreateSite extends Component {
                     <BodyCreateCorporation
                         id="02"
                         price="$300"
-                        name="Интернет магазин с оним или двумя категориями"
+                        name="Интернет магазин с одним или двумя категориями"
                         idPrice="corporation"
                         propsOpenFormCorporation={ propsCorporation }
                         stateOpenFormCorporation={ propsCorporationState }

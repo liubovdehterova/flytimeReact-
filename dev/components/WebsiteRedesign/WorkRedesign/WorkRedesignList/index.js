@@ -4,7 +4,7 @@ class WorkRedesignList extends Component {
     render() {
         return(
             <ul className="ask__improvement__list">
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         1.
                     </div>
@@ -14,7 +14,7 @@ class WorkRedesignList extends Component {
                         Делать редизайн рекомендуется не реже, чем раз в 5 лет. А в идеале – каждые 2-3 года.
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         2.
                     </div>
@@ -22,7 +22,7 @@ class WorkRedesignList extends Component {
                         Переезд сайта на новый движок. Старая CMS могла содержать обилие технических ошибок. Все они исправляются при редизайне.
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         3.
                     </div>
@@ -30,7 +30,7 @@ class WorkRedesignList extends Component {
                         Оптимизация для эффективного продвижения. Для ускорения загрузки сайта принимаются разные меры. Одна из них – редизайн.
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         4.
                     </div>
@@ -39,7 +39,7 @@ class WorkRedesignList extends Component {
                         Тут нужно прорабатывать оформление, обновлять контент, улучшать юзабилити – и эти работы как раз входят в редизайн.
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         5.
                     </div>
@@ -49,7 +49,7 @@ class WorkRedesignList extends Component {
                         В подобных ситуациях выполняется полный редизайн сайта (часто – вместе с ребрендингом).
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         6.
                     </div>

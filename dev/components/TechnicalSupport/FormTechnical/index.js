@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class FormDesign extends Component {
     render() {
         return(
-            <div className="fromDesign">
+            <div className="fromDesign fromDesign__technical">
                 <div className="fromDesign__inner">
                     <h1 className="fromDesign__title">
                         Заполните форму и получите консультацию по вашему проекту!

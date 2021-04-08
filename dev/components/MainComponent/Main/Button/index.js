@@ -4,9 +4,9 @@ class Button extends Component {
     render() {
         const { button } = this.props;
         return (
-            <a className="option__inner__information__link" href="#">
+            <p className="option__inner__information__link">
                 {button}
-            </a>
+            </p>
         );
     }
 }

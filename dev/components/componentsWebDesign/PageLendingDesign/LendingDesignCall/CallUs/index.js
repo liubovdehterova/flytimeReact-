@@ -5,7 +5,7 @@ import Form from './Form';
 class CallUs extends Component {
     
     render() {
-        const { propsAdepCall, stateAdepCall } = this.props;
+        const { propsLendingCall, stateLendingCall } = this.props;
         return (
             <div className="conteiner-item">
                 <div className="ask">
@@ -16,12 +16,12 @@ class CallUs extends Component {
                             </h1>
                             <button
                                 className="button__esc"
-                                onClick={propsAdepCall}
+                                onClick={propsLendingCall}
                             >
                                 X
                             </button>
                             {
-                                !stateAdepCall ? document.querySelectorAll('.conteiner-item').remove() : null
+                                !stateLendingCall ? document.querySelectorAll('.conteiner-item').remove() : null
                             }
                         </div>
                         <Form />

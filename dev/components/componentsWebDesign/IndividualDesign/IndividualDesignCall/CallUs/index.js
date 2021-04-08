@@ -5,7 +5,7 @@ import Form from './Form';
 class CallUs extends Component {
     
     render() {
-        const { propsDeleteFunction, propsDeleteState } = this.props;
+        const { propsIndividualCall, stateIndividualCall } = this.props;
         return (
             <div className="conteiner-item">
                 <div className="ask">
@@ -14,12 +14,12 @@ class CallUs extends Component {
                             <h1 className="ask__titel">Оставьте Сообщение</h1>
                             <button 
                                 className="button__esc"
-                                onClick={propsDeleteFunction}
+                                onClick={propsIndividualCall}
                             >
                                 X
                             </button>
                             {
-                                !propsDeleteState ? document.querySelectorAll('.conteiner-item').remove() : null
+                                !stateIndividualCall ? document.querySelectorAll('.conteiner-item').remove() : null
                             }
                         </div>
                         <Form />

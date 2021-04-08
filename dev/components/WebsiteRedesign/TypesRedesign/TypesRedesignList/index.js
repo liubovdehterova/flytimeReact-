@@ -4,7 +4,7 @@ class TypesRedesignList extends Component {
     render() {
         return(
             <ul className="ask__improvement__list ask__improvement__list-other">
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         01.
                     </div>
@@ -19,7 +19,7 @@ class TypesRedesignList extends Component {
                         </p>
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         02.
                     </div>
@@ -36,7 +36,7 @@ class TypesRedesignList extends Component {
                         </p>
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         03.
                     </div>
@@ -49,7 +49,7 @@ class TypesRedesignList extends Component {
                         </p>
                     </div>
                 </li>
-                <li className="ask__improvement__list__inner">
+                <li className="ask__improvement__list__inner ask__improvement__list__inner-redesign">
                     <div className="ask__improvement__list__inner-item">
                         04.
                     </div>

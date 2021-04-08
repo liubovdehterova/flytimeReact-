@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 
 import Buner from "./Buner";
-import LendingDesignCall from "./LendingDesignCall";
-import TypesLendingDesignPages from "./TypesLendingDesignPages";
+import IndividualDesignCall from "./IndividualDesignCall";
+import TypesIndividualDesignPages from "./TypesIndividualDesignPages";
 import FormCorporation from "./FormCorporation";
 
 
-class  PageLendingDesign extends Component {
+class  IndividualDesign extends Component {
     constructor() {
         super();
         this.state = {
             isShow: false,
         }
-        this.lendingDesignCall = this.lendingDesignCall.bind(this);
+        this.individualDesignCall = this.individualDesignCall.bind(this);
     }
-    lendingDesignCall() {
+    individualDesignCall() {
         const { isShow } = this.state;
         this.setState({
             isShow: !isShow,
@@ -24,14 +24,14 @@ class  PageLendingDesign extends Component {
         return(
             <>
                 <Buner />
-                <LendingDesignCall
-                    propsLendingDesignCall={ this.lendingDesignCall }
-                    stateLendingDesignCall={ this.state.isShow }
+                <IndividualDesignCall
+                    propsIndividualDesignCall={ this.individualDesignCall }
+                    stateIndividualDesignCall={ this.state.isShow }
                 />
-                <TypesLendingDesignPages />
+                <TypesIndividualDesignPages />
                 <FormCorporation />
             </>
         )
     }
 }
-export default PageLendingDesign;
+export default IndividualDesign;

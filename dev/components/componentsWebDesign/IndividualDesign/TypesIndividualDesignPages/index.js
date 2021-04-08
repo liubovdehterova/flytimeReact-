@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import TypesLendingDesignPagesList from './TypesLendingDesignPagesList'
+import TypesIndividualDesignPagesList from './TypesIndividualDesignPagesList'
 
-class TypesLendingDesignPages extends Component {
+class TypesIndividualDesignPages extends Component {
     render() {
         return(
             <div className="ask__improvement">
@@ -12,9 +12,9 @@ class TypesLendingDesignPages extends Component {
                 <p className="ask__improvement__title__submenu">
                     Создание дизайна интернет-сайтов требует тщательной проработки каждой детали. Работа предусматривает:
                 </p>
-                <TypesLendingDesignPagesList />
+                <TypesIndividualDesignPagesList />
             </div>
         )
     }
 }
-export default TypesLendingDesignPages;
+export default TypesIndividualDesignPages;
