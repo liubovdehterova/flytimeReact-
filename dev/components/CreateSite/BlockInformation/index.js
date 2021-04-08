@@ -21,7 +21,7 @@ class BlockInformation extends Component {
                     <button className="block__main__button"
                             onClick={formSiteFunction}
                     >
-                        Ниписать нам
+                        Написать нам
                     </button>
                     {
                         formSiteState ? <CallUs

@@ -64,7 +64,7 @@ class ResultWorkList extends Component {
                             <button className="context__call__form__button block__main__button block__main__button-other"
                                     onClick={ propsNextResultWork }
                             >
-                                <h4 className="ask__improvement__list__inner-title">
+                                <h4 className="ask__improvement__list__inner-title ask__improvement__list__inner-title-other">
                                     У вас остались вопросы?
                                 </h4>
                                 <p className="analytics__list__inner__description analytics__list__inner__description-other">
